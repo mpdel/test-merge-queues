@@ -2,11 +2,12 @@ name: ui
 
 on:
   pull_request:
+  merge_group:
 
 jobs:
-  test:
+  run-ui-tests:
     runs-on: ubuntu-latest
     steps:
-    - name: Test
+    - name: Execute UI tests
       run: |
         echo success

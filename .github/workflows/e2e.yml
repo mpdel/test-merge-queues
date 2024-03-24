@@ -4,9 +4,9 @@ on:
   merge_group:
 
 jobs:
-  test:
+  run-e2e-tests:
     runs-on: ubuntu-latest
     steps:
-    - name: Test
+    - name: Execute E2E tests
       run: |
-        sleep 5m
+        sleep 3m
