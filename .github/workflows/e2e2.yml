@@ -1,0 +1,12 @@
+name: test
+
+on:
+  merge_group:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Test
+      run: |
+        sleep 5m

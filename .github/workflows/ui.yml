@@ -2,7 +2,6 @@ name: test
 
 on:
   pull_request:
-  merge_group:
 
 jobs:
   test:
@@ -10,4 +9,4 @@ jobs:
     steps:
     - name: Test
       run: |
-        sleep 5m
+        echo success
