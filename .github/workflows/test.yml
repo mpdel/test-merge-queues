@@ -10,4 +10,4 @@ jobs:
     steps:
     - name: Test
       run: |
-        sleep 1m
+        sleep 5m
